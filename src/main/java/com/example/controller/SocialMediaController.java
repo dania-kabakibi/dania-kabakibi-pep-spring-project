@@ -100,5 +100,4 @@ public class SocialMediaController {
     public List<Message> retrieveAllMessagesForUserTest(@PathVariable int accountId) {
         return messageService.getAllMessagesByAccountId(accountId);
     }
-
 }
